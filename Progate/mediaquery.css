@@ -1,0 +1,58 @@
+@media (max-width: 1024px) {
+    
+    .section-item-container{
+        display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      }  
+  .section-container{
+      height: auto;
+      padding: 20px;
+    }
+    .main-subContainer{
+      display: flex;
+      width: 100%;
+      margin: 0px auto;
+      flex-wrap: wrap;
+    }
+    .main-subContainer nav{
+        margin-bottom: 70px;
+    }
+    .section-container{
+        margin-top: 90px;
+    }
+    .main-title h1{
+        font-size: 30px;
+    }
+    .main-container{
+        padding: 20px;
+    }
+    .message-container{
+        padding: 20px;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .message-nav{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 670px) {
+    .header-nav{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        margin-right: 20px;
+    }
+    .header-logo{
+        margin-left: 20px;
+    }
+    .footer-img{
+        margin-left: 100px;
+    }
+    .btn-register a{
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    
+}
